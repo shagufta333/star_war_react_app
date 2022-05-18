@@ -1,8 +1,12 @@
 import React from 'react'
+import EmployeeList from './components/EmployeeList'
+
 
 const App = () => {
   return (
-    <div>hello</div>
+    <div>
+ <EmployeeList />
+    </div>
   )
 }
 export default App
